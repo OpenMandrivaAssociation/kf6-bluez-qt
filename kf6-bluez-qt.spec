@@ -1,11 +1,11 @@
 %define libname %mklibname KF6BluezQt
 %define devname %mklibname KF6BluezQt -d
-%define git 20230411
+%define git 20230420
 
 Name: kf6-bluez-qt
 Version: 5.240.0
 Release: %{?git:0.%{git}.}1
-Source0: https://invent.kde.org/frameworks/bluez-qt/-/archive/master/bluez-qt-master.tar.bz2
+Source0: https://invent.kde.org/frameworks/bluez-qt/-/archive/master/bluez-qt-master.tar.bz2#/bluez-qt-%{git}.tar.bz2
 Summary: Qt wrapper for the BlueZ DBus API
 URL: https://invent.kde.org/frameworks/bluez-qt
 License: CC0-1.0 LGPL-2.0+ LGPL-2.1 LGPL-3.0
