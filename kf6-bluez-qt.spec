@@ -28,6 +28,7 @@ BuildRequires: cmake(Qt6DBusTools)
 BuildRequires: doxygen
 BuildRequires: cmake(Qt6ToolsTools)
 BuildRequires: cmake(Qt6)
+BuildRequires: cmake(Qt6QuickTest)
 Requires: %{libname} = %{EVRD}
 Requires: bluez
 
