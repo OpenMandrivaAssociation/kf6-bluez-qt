@@ -1,6 +1,6 @@
 %define libname %mklibname KF6BluezQt
 %define devname %mklibname KF6BluezQt -d
-%define git 20230513
+%define git 20230525
 
 Name: kf6-bluez-qt
 Version: 5.240.0
@@ -20,7 +20,7 @@ BuildRequires: cmake(Qt6Test)
 BuildRequires: cmake(Qt6QmlTools)
 BuildRequires: cmake(Qt6Qml)
 BuildRequires: cmake(EGL)
-BuildRequires: cmake(XKB)
+BuildRequires: pkgconfig(xkbcommon)
 BuildRequires: cmake(Qt6GuiTools)
 BuildRequires: cmake(VulkanHeaders)
 BuildRequires: cmake(Qt6QuickTest)
@@ -68,7 +68,6 @@ Qt wrapper for the BlueZ DBus API
 %ninja_install -C build
 
 %files
-/lib/udev/rules.d/61-kde-bluetooth-rfkill.rules
 %{_libdir}/qt6/qml/org/kde/bluezqt
 %{_datadir}/qlogging-categories6/*
 
