@@ -1,6 +1,6 @@
 %define libname %mklibname KF6BluezQt
 %define devname %mklibname KF6BluezQt -d
-%define git 20230927
+%define git 20231004
 
 Name: kf6-bluez-qt
 Version: 5.240.0
@@ -75,7 +75,6 @@ Qt wrapper for the BlueZ DBus API
 %{_includedir}/KF6/BluezQt
 %{_libdir}/cmake/KF6BluezQt
 %{_libdir}/pkgconfig/KF6BluezQt.pc
-%{_libdir}/qt6/mkspecs/modules/qt_BluezQt.pri
 %{_libdir}/qt6/doc/KF6BluezQt.*
 
 %files -n %{libname}
