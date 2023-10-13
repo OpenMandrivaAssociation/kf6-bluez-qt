@@ -1,6 +1,6 @@
 %define libname %mklibname KF6BluezQt
 %define devname %mklibname KF6BluezQt -d
-%define git 20231011
+%define git 20231013
 
 Name: kf6-bluez-qt
 Version: 5.240.0
