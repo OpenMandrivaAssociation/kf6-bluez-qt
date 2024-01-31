@@ -6,7 +6,7 @@
 %define major %(echo %{version} |cut -d. -f1-3)
 
 Name: kf6-bluez-qt
-Version: 5.248.0
+Version: 5.249.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/bluez-qt/-/archive/master/bluez-qt-master.tar.bz2#/bluez-qt-%{git}.tar.bz2
