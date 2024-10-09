@@ -7,7 +7,7 @@
 
 Name: kf6-bluez-qt
 Version: 6.6.0
-Release: %{?git:0.%{git}.}1
+Release: %{?git:0.%{git}.}2
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/bluez-qt/-/archive/master/bluez-qt-master.tar.bz2#/bluez-qt-%{git}.tar.bz2
 %else
