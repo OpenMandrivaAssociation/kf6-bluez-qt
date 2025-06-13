@@ -6,7 +6,7 @@
 %define major %(echo %{version} |cut -d. -f1-2)
 
 Name: kf6-bluez-qt
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/bluez-qt/-/archive/master/bluez-qt-master.tar.bz2#/bluez-qt-%{git}.tar.bz2
@@ -82,7 +82,6 @@ Qt wrapper for the BlueZ DBus API
 %{_includedir}/KF6/BluezQt
 %{_libdir}/cmake/KF6BluezQt
 %{_libdir}/pkgconfig/KF6BluezQt.pc
-%{_libdir}/qt6/doc/KF6BluezQt.*
 
 %files -n %{libname}
 %{_libdir}/libKF6BluezQt.so*
